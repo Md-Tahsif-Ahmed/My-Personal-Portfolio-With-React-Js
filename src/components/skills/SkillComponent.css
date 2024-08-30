@@ -1,0 +1,107 @@
+/* SkillComponent.css */
+.head{
+    display: inline-block;
+    padding:0px 12px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 20px;
+    margin-left:30px;
+    letter-spacing: 5px;
+    font-size: 11px;
+}
+#skills {
+    padding: 4rem 0;
+    background: linear-gradient(to right, #b4b44950, #a4a45850);
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .skill-name {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    
+     
+  }
+  
+  .skill-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    height: 350px;
+    /* background-image: linear-gradient(to left, rgba(75, 19, 79, 0.8), rgba(201, 75, 75, 0.6));
+*/
+  } 
+  
+  .skill-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  
+  .skill-category {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: #1abc9c;
+  }
+  
+  .skill-list {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    transition: all 0.2s ease;
+  }
+  
+  .skill-item:hover {
+    transform: translateX(10px);
+  }
+  
+  .skill-icon {
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #1abc9c;
+  }
+  
+  .skill-bar-container {
+    width: 50%;
+    background-color: #7f8c8d;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    margin-left: 1rem;
+  }
+  
+  .skill-bar {
+    height: 0.625rem;
+    background-color: #1abc9c;
+    border-radius: 0.25rem;
+    transition: width 0.7s ease;
+  }
+  

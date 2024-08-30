@@ -64,6 +64,13 @@ class Education extends Component {
                         </i>{' '}
                         and boosting my professional skills.
                       </p>
+                      <span>LeetCode Problem Solver</span>
+                      <p> 
+                        <i>
+                      Solved 100 plus coding problems using python on LeetCode, showcasing proficiency including arrays,
+                      strings, linked list etc. and algorithms.
+                        </i> 
+                        </p>
                     </div>
                   </article>
                   {/* </ScrollAnimation> */}

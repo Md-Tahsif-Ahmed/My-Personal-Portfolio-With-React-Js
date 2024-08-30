@@ -54,9 +54,7 @@ export default function Sidebar() {
 
   return (
     <div className='sidebar'>
-      <div className='topHashtag'># </div>
-      <div className='topHashtag'># </div>
-      <div className='topHashtag'># </div>
+      <div className='topHashtag'># I Love Problem Solving &  Development</div>
       <h1>
         <Link smooth to='/#start' className='h1_links'>
           Md.Tahsif Ahmed

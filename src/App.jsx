@@ -4,9 +4,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Sidebar from './components/sidebar/Sidebar.jsx';
 import About from './components/about/About.jsx';
 import Education from './components/Education/Education.jsx';
-import Interest from './components/skills/Interest.jsx';
+import ServiceCard from './components/skills/Interest.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import CarouselImages from './components/Carousel/Carousel.jsx';
+import SkillComponent from './components/skills/SkillComponent.jsx';
 
 class App extends Component {
   render() {
@@ -33,7 +34,8 @@ class App extends Component {
             <CarouselImages />
             <Projects />
             <About />
-            <Interest />
+            <SkillComponent></SkillComponent>
+            <ServiceCard></ServiceCard>
             <Education />
           </div>
         </div>
