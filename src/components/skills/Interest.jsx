@@ -1,69 +1,72 @@
-import React, { Component } from 'react';
-import classes from './Interest.module.css';
-// import ScrollAnimation from 'react-animate-on-scroll';
-import 'animate.css/animate.min.css';
+import React from 'react';
+import Slider from 'react-slick';
+import './ServiceCard.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-export default function Interest() {
+const services = [
+  {
+    title: 'Web Development',
+    description: 'Building responsive and high-performance websites.'
+  },
+  {
+    title: 'API Integration',
+    description: 'Integrating third-party APIs for enhanced functionality.'
+  },
+  {
+    title: 'Frontend Development',
+    description: 'Creating interactive and dynamic user interfaces.'
+  },
+  {
+    title: 'Backend Development',
+    description: 'Building robust and scalable backend services.'
+  }
+];
+
+export default function ServiceCard() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true, // Center the active slide
+    centerPadding: '15px', // Padding on each side of the center slide
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+
   return (
-    <div className={classes.box} id='interest'>
-      {/* <ScrollAnimation
-        offset={0}
-        animateIn='fadeInLeft'
-        duration={2.4}
-        animateOnce={true}
-        initiallyVisible={true}
-      > */}
-      <span className={classes.head}>WHAT I DO?</span>
-      <h2 className={classes.heading}>HERE ARE SOME OF MY EXPERTISE</h2>
-      <div className={classes.Interest}>
-        {/* <ScrollAnimation
-            offset={0}
-            animateIn='fadeInLeft'
-            duration={2.4}
-            animateOnce={true}
-            initiallyVisible={true}
-          > */}
-        <div className={classes.web}>
-          <h3>APP Develpoment</h3>
-          <p>
-            I have knowledge of flutter development and have experience in building android and IOS
-            applications. I also have live projects published on Google Play Store.
-          </p>
-        </div>
-        {/* </ScrollAnimation>
-          <ScrollAnimation
-            offset={0}
-            animateIn='fadeInLeft'
-            duration={2.4}
-            animateOnce={true}
-            initiallyVisible={true}
-          > */}
-        <div className={classes.app}>
-          <h3>Web Development</h3>
-          <p>
-            Javascript/ Typescript, HTML/ CSS, ReactJs, Next.js, Prisma, tRPC, ZOD, Redux, Tailwind
-            CSS, UI Libraries (React-Bootstrap, Mantine, MUI, Shadcn UI), Redux Toolkit, T3 Stack,
-            JEST, Unit Testing.
-          </p>
-        </div>
-        {/* </ScrollAnimation>
-          <ScrollAnimation
-            offset={0}
-            animateIn='fadeInLeft'
-            duration={2.4}
-            animateOnce={true}
-            initiallyVisible={true}
-          > */}
-        {/* <div className={classes.other}>
-          <h3>Expanded Expertise</h3>
-          <p>
-            AWS, Docker, GitHub, Frontend System Design, Express.js, Node.js, MongoDB, MERN Stack,
-            SQL, NOSQL, Socket.io, jQuery, Open to Monorepo architecture, Open Source Contribution.
-          </p>
-        </div> */}
-        {/* </ScrollAnimation> */}
+    <section className='out-service'>
+      <span className="head">My Services</span>
+      <div id="services" className="service-section">
+        <Slider {...settings} className="service-slider">
+          {services.map((service, index) => (
+            <div key={index} className="service-card">
+              <div className="service-content">
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+              </div>
+            </div>
+          ))}
+        </Slider>
       </div>
-      {/* </ScrollAnimation> */}
-    </div>
+    </section>
   );
 }
