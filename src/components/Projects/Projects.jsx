@@ -5,6 +5,7 @@ import Tilt from 'react-parallax-tilt';
 import classes from './Projects.module.css';
 import blog from "../images/blog.PNG";
 import bridal from "../images/bridal.PNG";
+import asset from "../images/asset.PNG"; // Import the GitHub icon image
 import github from "../images/github.png"; // Import the GitHub icon image
 
 // Web projects
@@ -26,6 +27,15 @@ const webItem = [
     image: blog,
     color: '#E5E483',
     githubLink: 'https://github.com/Md-Tahsif-Ahmed/Programming-Blog-With-React-JS-Client'
+  },
+  {
+    link: 'https://nebtahsif-badge.surge.sh',
+    title: 'Asset Management System',
+    techStack: 'Useful repo for most common frontend challenges',
+    desc: 'Technology used: React Js, Tailwind CSS, Context API',
+    image: asset,
+    color: '#E5E483',
+    githubLink: 'https://github.com/Md-Tahsif-Ahmed/Asset-Management-System-With-React-JS-Client?tab=readme-ov-file'
   },
 ];
 
