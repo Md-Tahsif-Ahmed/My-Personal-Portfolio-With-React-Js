@@ -5,11 +5,12 @@
 .head {
   display: inline-block;
   padding: 0px 12px;
-  color: rgb(85, 85, 85);
+  /* color: rgb(85, 85, 85); */
   margin-bottom: 20px;
   margin-left: 30px;
   letter-spacing: 5px;
-  font-size: 11px;
+  font-size: 16px;
+  color: white;
 }
 
 .container {
@@ -106,16 +107,17 @@
 
 .label {
   position: relative;
-  background: #f2f3f7;
+  /* background: #f2f3f7; */
   padding: 1.5em;
   margin-left: 60px;
+  color:white;
 }
 .label h2 {
   font-size: 20px;
   font-family: 'Quicksand', Arial, sans-serif;
   font-weight: 500;
   margin: 0 0 30px 0;
-  color: #000;
+  color:white;
 }
 .label h2 span {
   -webkit-opacity: 0.4;
@@ -124,15 +126,17 @@
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
   font-size: 16px;
+  color:white;
 }
 
 .label p {
   margin-bottom: 1.5em;
+  color:white;
 }
 
 p > a {
   text-decoration: none;
-  color: inherit;
+  color:white;
 }
 
 a:hover {
