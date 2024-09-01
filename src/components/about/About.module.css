@@ -5,8 +5,16 @@
 .About {
   margin-left: 20px;
   padding: 20px;
+   
 }
-
+.About p{
+   color:white;
+   
+}
+.About a{
+  color:white;
+  
+}
 .br {
   margin-top: 20px;
 }
@@ -14,11 +22,11 @@
 .head {
   display: inline-block;
   padding: 0px 12px;
-  color: rgb(85, 85, 85);
+  color:white;
   margin-bottom: 20px;
   margin-left: 30px;
   letter-spacing: 5px;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .heading {

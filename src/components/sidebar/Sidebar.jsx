@@ -66,7 +66,7 @@ export default function Sidebar() {
       >
         <img src={logo} className='my-img' />
       </motion.div>
-      <p style={{ color: 'black', fontWeight: 'bold' }} className='gmail'>
+      <p style={{ color: 'white', fontWeight: 'bold' }} className='gmail'>
         <a
           href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL'
           rel='opener noreferrer'

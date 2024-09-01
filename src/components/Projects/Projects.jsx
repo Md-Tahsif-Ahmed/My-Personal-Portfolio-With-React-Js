@@ -11,7 +11,7 @@ import github from "../images/github.png"; // Import the GitHub icon image
 const webItem = [
   {
     link: 'https://diamondbridal.netlify.app/',
-    title: 'Profilee - An OS link in bio',
+    title: 'Special Bridal Diamond',
     techStack: 'Tech Stack: React JS, MUI, Express jS',
     desc: 'Profilee is an open source profile link bio page builder',
     image: bridal,
@@ -20,7 +20,7 @@ const webItem = [
   },
   {
     link: 'https://needy-tah.surge.sh/',
-    title: 'Frontend challenges',
+    title: 'Proramming Blog',
     techStack: 'Useful repo for most common frontend challenges',
     desc: 'Technology used: React Js, Tailwind CSS, Context API',
     image: blog,

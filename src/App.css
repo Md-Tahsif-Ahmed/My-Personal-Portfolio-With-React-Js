@@ -25,6 +25,9 @@ code {
 .main {
   overflow: scroll;
   overflow-x: hidden;
+  background-color: rgba(5, 8, 22, 1);
+  opacity: 1;
+  color: white;
 }
 
 p {

@@ -7,11 +7,11 @@
 .head {
   display: inline-block;
   padding: 0px 12px;
-  color: rgb(85, 85, 85);
+  color: white;
   margin-bottom: 20px;
   margin-left: 30px;
   letter-spacing: 5px;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .heading {
@@ -48,12 +48,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: rgb(9, 1, 35);
+  
 }
 
 .card__title {
   font-size: 1rem;
   margin: -2px 0 0.3em;
-  color: #000;
+  color: white;
   padding: 14px 0px 5px 0px;
   text-align: center;
   font-weight: bold;
@@ -63,6 +65,8 @@
 .card__title__img {
   height: 20px;
   cursor: pointer;
+  background: white;
+  border-radius: 50%;
 }
 
 @media (max-width: 450px) {

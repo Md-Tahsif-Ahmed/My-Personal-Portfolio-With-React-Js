@@ -3,12 +3,8 @@
 .sidebar {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(
-  to right, 
-  #bc5e3680,  /* Start with red, 50% transparency */
-  /* rgba(0, 0, 255, 0.5)   End with blue, 50% transparency */
-  rgb(170, 170, 8)
-);
+  background: rgb(9, 1, 35);
+
 
   overflow-y: scroll;
   text-align: center;
@@ -31,7 +27,12 @@
   font-size: 32px;
 }
 .h1_links:hover {
-  color: #333;
+  color: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 180, 1),
+    rgba(0, 100, 200, 1)
+  );
 }
 .my-img {
   width: 100px;
@@ -42,8 +43,11 @@
 .sidebar > p {
   margin-top: 20px;
   text-align: center;
+  color:white;
 }
-
+/* .gmail {
+  color:white;
+} */
 .sidebar-nav {
   margin-left: -30px;
   margin-top: 30px;
@@ -104,9 +108,10 @@ ul {
 }
 
 .icon-img {
-  height: 28px;
+  height: 32px;
   margin-bottom: 15px;
   border-radius: 5px;
+  background: white;
 }
 .icon-img:hover {
   scale: 1.2;
