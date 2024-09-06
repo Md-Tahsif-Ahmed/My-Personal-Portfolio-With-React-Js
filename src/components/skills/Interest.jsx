@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const services = [
   {
-    title: 'Web Development',
+    title: 'Full Stack Web Development',
     description: 'Building responsive and high-performance websites.'
   },
   {
@@ -53,9 +53,9 @@ export default function ServiceCard() {
   };
 
   return (
-    <section className='out-service'>
+    <section id="services" className='out-service' >
       <span className="head">My Services</span>
-      <div id="services" className="service-section">
+      <div className="service-section">
         <Slider {...settings} className="service-slider">
           {services.map((service, index) => (
             <div key={index} className="service-card">

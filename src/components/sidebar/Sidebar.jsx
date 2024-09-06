@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import logo from '../images/tahsif.jpg';
 import github from '../images/github.png';
 import instagram from '../images/instagram.png';
-import twitter from '../images/twitterx.png';
+// import twitter from '../images/twitterx.png';
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
 
@@ -88,13 +88,18 @@ export default function Sidebar() {
           </Link>
         </li>
         <li className='sidebar-nav-items'>
-          <Link smooth to='/#interest' className='links'>
-            Interest
+          <Link smooth to='/#skill' className='links'>
+            Skill
+          </Link>
+        </li>
+        <li className='sidebar-nav-items'>
+          <Link smooth to='/#services' className='links'>
+            Services
           </Link>
         </li>
         <li className='sidebar-nav-items'>
           <Link smooth to='/#education' className='links'>
-            Education
+           Journey
           </Link>
         </li>
       </ul>

@@ -13,7 +13,7 @@ class Education extends Component {
         {/* <ScrollAnimation
           offset={0}
           animateIn='fadeInLeft'
-          duration={2}
+          duration={2}s
           animateOnce={true}
           initiallyVisible={true}
         > */}
@@ -38,11 +38,11 @@ class Education extends Component {
                       <h2>
                         Professional Experience
                       </h2>
-                      <span>Dream Diver Software Ltd.(June2024-Present)</span>
+                      <span style={{ fontWeight: 'bold' }}>Dream Diver IT Solution.(June2024-Present)</span>
                       <p>
-                        I am currently working as a <b>Jr. Software Engineer</b> at{' '}
-                        <a target='_blank' href=''>
-                          <b>Dream Diver Software Ltd.</b>
+                        I am currently working as a <b style={{ color: '#007acc' }}>Jr. Software Engineer</b> at{' '}
+                        <a target='_blank' href='https://dreamdiver.nl/'>
+                          <b style={{ color: '#007acc' }}>Dream Diver IT Solution</b>
                         </a>{' '}
                         <i>
                            where i am working based on client-specific requirements designed and developed a Bridal Diamond Website using MERN which
@@ -51,11 +51,11 @@ class Education extends Component {
                         and boosting my professional skills.
                       </p>
                       
-                      <span>Venture Solution Software Ltd.(December2022–June2023)</span>
+                      <span style={{ fontWeight: 'bold' }}>Venture Solution Software Ltd.(December2022–August2023)</span>
                       <p>
-                        I have worked as a <b>Jr. Software Engineer</b> at{' '}
-                        <a target='_blank' href=''>
-                          <b>Venture Solution Software Ltd.</b>
+                        I have worked as a <b style={{ color: '#007acc' }}>Jr. Software Engineer</b> at{' '}
+                        <a target='_blank' href='https://www.linkedin.com/company/venturenxt/about/'>
+                          <b style={{ color: '#007acc' }} >Venture Solution Software Ltd.</b>
                         </a>{' '}
                         <i>
                            where i have worked  Designed and developed a web-based fleet management system using Django.
@@ -64,10 +64,10 @@ class Education extends Component {
                         </i>{' '}
                         and boosting my professional skills.
                       </p>
-                      <span>LeetCode Problem Solver</span>
+                      <span style={{ fontWeight: 'bold' }}>LeetCode Problem Solver</span>
                       <p> 
                         <i>
-                      Solved 100 plus coding problems using python on LeetCode, showcasing proficiency including arrays,
+                      Solved <b style={{ color: '#007acc' }}>100 plus</b> coding problems using python on LeetCode, showcasing proficiency including arrays,
                       strings, linked list etc. and algorithms.
                         </i> 
                         </p>
@@ -91,7 +91,7 @@ class Education extends Component {
                       </h2>
                       <p>
                         I have completed my graduation in CSE (Computer Science and Engineering)
-                        from <a href='https://www.ewubd.edu/'>East West University</a> with 3.11 CGPA
+                        from <a href='https://www.ewubd.edu/'><b style={{ color: '#007acc'  }}>East West University</b></a> 
                       </p>
                     </div>
                   </article>

@@ -16,14 +16,7 @@ const skills = [
       { name: "PHP", icon: <DiPhp />, level: 75 }
     ]
   },
-  {
-    category: "Database Skills",
-    skills: [
-      { name: "MySQL", icon: <FaDatabase />, level: 85 },
-      { name: "MongoDB", icon: <DiMongodb />, level: 80 },
-      { name: "PostgreSQL", icon: <SiPostgresql />, level: 75 }
-    ]
-  },
+  
   {
     category: "Web Technologies",
     skills: [
@@ -49,6 +42,14 @@ const skills = [
     ]
   },
   {
+    category: "Database Skills",
+    skills: [
+      { name: "MySQL", icon: <FaDatabase />, level: 85 },
+      { name: "MongoDB", icon: <DiMongodb />, level: 80 },
+      { name: "PostgreSQL", icon: <SiPostgresql />, level: 75 }
+    ]
+  },
+  {
     category: "Software and Tools",
     skills: [
       { name: "Git", icon: <FaGitAlt />, level: 90 },
@@ -70,7 +71,7 @@ const skills = [
 
 export default function SkillComponent() {
   return (
-    <section >
+    <section id='skill' >
         <span className="head">My Skills</span>
       <div id="skills">
       <div className="container">

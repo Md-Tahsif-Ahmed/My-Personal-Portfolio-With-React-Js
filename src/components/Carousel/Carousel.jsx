@@ -15,7 +15,7 @@ export default function CarouselImage() {
       <Carousel
         dynamicHeight
         infiniteLoop={true}
-        interval={6000}
+        interval={3000}
         useKeyboardArrows={true}
         transitionTime={1700}
         emulateTouch
@@ -37,7 +37,7 @@ export default function CarouselImage() {
               }}
             >
               <a
-                href='https://drive.google.com/file/d/1f-ZAbusL-Vb85GN6BIK98-L-7JE_8KGm/view'
+                href='https://drive.google.com/file/d/1IPbmnIV0EHAwnC4lZVsoLUZ6RqjLw25D/view?usp=sharing'
                 rel='opener noreferrer'
                 target='_blank'
               >
@@ -48,9 +48,8 @@ export default function CarouselImage() {
         </div>
         <div>
           <img className={classes.image} src={Pencil} alt='myImage' />
-          <div className={classes.h2}>
-            <h1>I love </h1>
-            <h1>THINGS!!</h1>
+          <div className={classes.h1}>
+           
             <a
               href='https://github.com/Md-Tahsif-Ahmed'
               rel='opener noreferrer'
