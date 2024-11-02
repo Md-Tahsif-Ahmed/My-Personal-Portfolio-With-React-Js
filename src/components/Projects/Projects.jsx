@@ -11,13 +11,13 @@ import github from "../images/github.png"; // Import the GitHub icon image
 // Web projects
 const webItem = [
   {
-    link: 'https://diamondbridal.netlify.app/',
+    link: 'https://bridal.aeonerp.com/',
     title: 'Special Bridal Diamond',
     techStack: 'Tech Stack: React JS, MUI, Express jS',
     desc: 'Profilee is an open source profile link bio page builder',
     image: bridal,
     color: '#0FFFFF',
-    githubLink: 'https://github.com/Md-Tahsif-Ahmed/Bridal-frontend'
+    githubLink: 'https://github.com/Md-Tahsif-Ahmed/Diamond-Bridal-Frontend'
   },
   {
     link: 'https://needy-tah.surge.sh/',
