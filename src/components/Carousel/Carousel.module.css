@@ -89,6 +89,9 @@
   }
   .h1 a {
     font-size: .5rem;
+    /* width: 170px; */
+    padding: 5px;
+    
   }
   
  

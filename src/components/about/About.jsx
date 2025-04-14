@@ -19,14 +19,14 @@ class About extends Component {
         <div className={classes.About}>
   <p>
     Hi! My name is <b style={{ color: '#007acc' }}>Md. Tahsif Ahmed</b>. I am a passionate developer with experience in{' '}
-    <b style={{ color: '#007acc' }}>Python Django</b>, <b style={{ color: '#007acc' }}>React JS</b> & <b style={{ color: '#007acc' }}>MERN Stack</b> development. 
+    <b style={{ color: '#007acc' }}>Python Django(Backend Developer)</b> & <b style={{ color: '#007acc' }}>MERN Stack</b> development. 
     I'm currently working at{' '}
     <b>
-      <a className={classes.link} style={{ color: '#007acc' }} target='_blank' href='https://dreamdiver.nl/'>
-        Dream Diver IT Solution
+      <a className={classes.link} style={{ color: '#007acc' }} target='_blank' href='https://www.finixcode.com/'>
+        Finixcode
       </a>
     </b>{' '}
-    as a <b style={{ color: '#007acc' }}>Jr. Software Engineer</b>. I am highly interested in developing new things that excite me.
+    as a <b style={{ color: '#007acc' }}>Software Engineer</b>. I am highly interested in developing new things that excite me.
   </p>
   <p className={classes.br}>
     I love exploring new technologies, and as a practitioner, I like to stay on top of the latest trends. I try to leave every line of code I write more readable, accessible, and modular. My problem-solving mindset and active GitHub profile showcase my commitment to innovative and collaborative coding.

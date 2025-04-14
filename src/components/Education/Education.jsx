@@ -38,36 +38,36 @@ class Education extends Component {
                       <h2>
                         Professional Experience
                       </h2>
-                      <span style={{ fontWeight: 'bold' }}>Dream Diver IT Solution.(June2024-Present)</span>
+                      <span style={{ fontWeight: 'bold' }}>Finixcode(January2025-Present)</span>
                       <p>
-                        I am currently working as a <b style={{ color: '#007acc' }}>Jr. Software Engineer</b> at{' '}
+                        I am currently working as a <b style={{ color: '#007acc' }}>Software Engineer</b> at{' '}
                         <a target='_blank' href='https://dreamdiver.nl/'>
-                          <b style={{ color: '#007acc' }}>Dream Diver IT Solution</b>
+                          <b style={{ color: '#007acc' }}>Finixcode</b>
                         </a>{' '}
                         <i>
-                           where i am working based on client-specific requirements designed and developed a Bridal Diamond Website using MERN which
-                           is authenticated with JWT. Also Working with ERP Project
+                           where i am working based on client-specific requirements and designed and developed a TutotSplan Management System Website using MERN which
+                           is authenticated with JWT. Also Working with Ledgero Management System
                         </i>{' '}
                         and boosting my professional skills.
                       </p>
                       
-                      <span style={{ fontWeight: 'bold' }}>Venture Solution Software Ltd.(December2022–August2023)</span>
+                      <span style={{ fontWeight: 'bold' }}>Dream Diver IT Solution Ltd.(January2024-December2024)</span>
                       <p>
                         I have worked as a <b style={{ color: '#007acc' }}>Jr. Software Engineer</b> at{' '}
                         <a target='_blank' href='https://www.linkedin.com/company/venturenxt/about/'>
-                          <b style={{ color: '#007acc' }} >Venture Solution Software Ltd.</b>
+                          <b style={{ color: '#007acc' }} >Dream Diver IT Solution Ltd.</b>
                         </a>{' '}
                         <i>
-                           where i have worked  Designed and developed a web-based fleet management system using Django.
+                           where i have Designed and developed a web-based Courier Service System using MERN Stack. Also developed a fleet management system using Django.
                            Incorporated client-specific requirements, ensuring high performance, scalability, and user-friendly features
-                           using HTML, CSS, and JavaScript.
+                         
                         </i>{' '}
                         and boosting my professional skills.
                       </p>
                       <span style={{ fontWeight: 'bold' }}>LeetCode Problem Solver</span>
                       <p> 
                         <i>
-                      Solved <b style={{ color: '#007acc' }}>100 plus</b> coding problems using python on LeetCode, showcasing proficiency including arrays,
+                      Solved <b style={{ color: '#007acc' }}>115 plus</b> coding problems using python on LeetCode, showcasing proficiency including arrays,
                       strings, linked list etc. and algorithms.
                         </i> 
                         </p>

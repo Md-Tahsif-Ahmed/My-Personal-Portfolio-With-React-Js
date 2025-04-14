@@ -4,6 +4,7 @@ import { FaPython, FaDatabase, FaReact, FaNodeJs, FaGitAlt, FaLinux } from 'reac
 import { DiJavascript1, DiPhp, DiMongodb } from 'react-icons/di';
 import { SiCplusplus, SiTailwindcss, SiDjango, SiPostgresql } from 'react-icons/si';
 import './SkillComponent.css';  // Import the CSS file
+import { RiNextjsFill } from 'react-icons/ri';
 
 const skills = [
   {
@@ -24,21 +25,24 @@ const skills = [
       { name: "CSS3", icon: <DiJavascript1 />, level: 90 },
       { name: "Tailwind", icon: <SiTailwindcss />, level: 85 },
       { name: "React JS", icon: <FaReact />, level: 90 },
-      { name: "Django", icon: <SiDjango />, level: 80 },
-      { name: "Django REST Framework", icon: <SiDjango />, level: 75 },
-      { name: "JWT", icon: <FaNodeJs />, level: 70 }
+      { name: "Next JS", icon: <RiNextjsFill />, level: 90 },
+      { name: "Firebase", icon: <FaNodeJs />, level: 70 },
+      { name: "Bootstrap4", icon: <DiJavascript1 />, level: 80 },
+      { name: "React Router", icon: <FaReact />, level: 80 },
+      { name: "Axios", icon: <FaReact />, level: 85 },
+     
     ]
   },
   {
-    category: "Familiar With",
+    category: "Web Technologies",
     skills: [
       { name: "Express JS", icon: <FaNodeJs />, level: 70 },
       { name: "Node JS", icon: <FaNodeJs />, level: 75 },
-      { name: "React Router", icon: <FaReact />, level: 80 },
-      { name: "Axios", icon: <FaReact />, level: 85 },
+      { name: "Django", icon: <SiDjango />, level: 80 },
+      { name: "Django REST Framework", icon: <SiDjango />, level: 75 },
+      { name: "JWT", icon: <FaNodeJs />, level: 70 },
       { name: "Stripe", icon: <FaNodeJs />, level: 65 },
-      { name: "Firebase", icon: <FaNodeJs />, level: 70 },
-      { name: "Bootstrap4", icon: <DiJavascript1 />, level: 80 }
+     
     ]
   },
   {
@@ -46,7 +50,10 @@ const skills = [
     skills: [
       { name: "MySQL", icon: <FaDatabase />, level: 85 },
       { name: "MongoDB", icon: <DiMongodb />, level: 80 },
-      { name: "PostgreSQL", icon: <SiPostgresql />, level: 75 }
+      { name: "PostgreSQL", icon: <SiPostgresql />, level: 75 },
+      { name: "Mongoose", icon: <SiPostgresql />, level: 75 },
+
+
     ]
   },
   {
