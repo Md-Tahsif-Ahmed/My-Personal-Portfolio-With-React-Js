@@ -37,20 +37,20 @@ export default function CarouselImage() {
               }}
             >
               <a
-                href='https://drive.google.com/file/d/1JPbnuI2ioy1hiVKVfmHXWGr-Z_vLaaQv/view?usp=drive_link'
+                href='https://drive.google.com/file/d/1S_K49TSb8QKeIXSzEIQi4eaWykNyOO2T/view?usp=sharing'
                 rel='opener noreferrer'
                 target='_blank'
               >
                 VIEW CV(MERN Stack) <FaArrowCircleDown />
 
               </a>
-              <a
+              {/* <a
                 href='https://drive.google.com/file/d/1WLpcoE_SSpiNNk_372CkPQb1CtC8iFLe/view?usp=drive_link'
                 rel='opener noreferrer'
                 target='_blank'
               >
                 VIEW CV(Python Django) <FaArrowCircleDown />
-              </a>
+              </a> */}
             </motion.h1>
           </div>
         </div>
