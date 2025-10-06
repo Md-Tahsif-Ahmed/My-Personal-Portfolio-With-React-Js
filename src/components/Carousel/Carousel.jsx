@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import classes from './Carousel.module.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -27,7 +26,7 @@ export default function CarouselImage() {
         <div>
           <img className={classes.image} src={Hello} alt='myImage' />
           <div className={classes.h1}>
-            I'm Md.Tahsif Ahmed
+             I'm Md.Tahsif Ahmed
             <motion.h1
               initial={{ scale: 1 }}
               animate={{ scale: [1, 1.2, 1] }} // Define the scale values for the bouncing effect
@@ -42,7 +41,6 @@ export default function CarouselImage() {
                 target='_blank'
               >
                 VIEW CV(MERN Stack) <FaArrowCircleDown />
-
               </a>
               {/* <a
                 href='https://drive.google.com/file/d/1WLpcoE_SSpiNNk_372CkPQb1CtC8iFLe/view?usp=drive_link'
@@ -57,12 +55,7 @@ export default function CarouselImage() {
         <div>
           <img className={classes.image} src={Pencil} alt='myImage' />
           <div className={classes.h1}>
-           
-            <a
-              href='https://github.com/Md-Tahsif-Ahmed'
-              rel='opener noreferrer'
-              target='_blank'
-            >
+            <a href='https://github.com/Md-Tahsif-Ahmed' rel='opener noreferrer' target='_blank'>
               VIEW Web PROJECTS <GoProject />
             </a>
             {/* <div className={classes.secondButton}>
