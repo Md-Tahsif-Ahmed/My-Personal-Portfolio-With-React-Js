@@ -15,7 +15,8 @@ import {
   SiDjango,
   SiPostgresql,
   SiSocketdotio,
-  SiRedis
+  SiRedis,
+  SiTypescript
 } from 'react-icons/si';
 import './SkillComponent.css'; // Import the CSS file
 import { RiNextjsFill } from 'react-icons/ri';
@@ -25,10 +26,11 @@ const skills = [
   {
     category: 'Programming Languages',
     skills: [
-      { name: 'Python', icon: <FaPython />, level: 90 },
-      { name: 'C++', icon: <SiCplusplus />, level: 85 },
-      { name: 'C', icon: <SiCplusplus />, level: 80 },
+      { name: 'Python', icon: <FaPython />, level: 95 },
       { name: 'JavaScript', icon: <DiJavascript1 />, level: 90 },
+      { name: 'TypeScript', icon: <SiTypescript />, level: 75 },
+      { name: 'C++', icon: <SiCplusplus />, level: 90 },
+      { name: 'C', icon: <SiCplusplus />, level: 80 },
       { name: 'PHP', icon: <DiPhp />, level: 75 }
     ]
   },
