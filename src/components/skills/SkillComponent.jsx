@@ -30,7 +30,7 @@ import { RiNextjsFill } from 'react-icons/ri';
 import { FaDocker } from 'react-icons/fa6';
 import { MdSchedule } from 'react-icons/md';
 import { GiBirdMask } from 'react-icons/gi';
-import { FcServices } from 'react-icons/fc';
+import { FcDeployment, FcServices } from 'react-icons/fc';
 
 const skills = [
   {
@@ -66,7 +66,7 @@ const skills = [
       { name: 'Express JS', icon: <FaNodeJs />, level: 90 },
       { name: 'Node JS', icon: <FaNodeJs />, level: 75 },
       { name: 'Django', icon: <SiDjango />, level: 85 },
-      { name: 'Django REST Framework', icon: <SiDjango />, level: 85 },
+      { name: 'DRF', icon: <SiDjango />, level: 85 },
       { name: 'NestJS', icon: <SiNestjs />, level: 50 },
       { name: 'JWT', icon: <FaNodeJs />, level: 80 },
       { name: 'Stripe', icon: <FaNodeJs />, level: 90 },
@@ -92,7 +92,7 @@ const skills = [
       { name: 'Docker', icon: <DiDocker />, level: 60 },
        { name: 'Linux (Ubuntu)', icon: <FaLinux />, level: 85 },
       { name: 'Vercel', icon: <SiVercel />, level: 70 },
-      { name: 'Hoistinger VPS', icon: <hoisting />, level: 90 },
+      { name: 'Hoistinger VPS', icon: <FcDeployment/>, level: 90 },
       { name: 'Nginx', icon: <SiNginx />, level: 60 },
       { name: 'cPanel', icon: <FaCpanel />, level: 50 },
      

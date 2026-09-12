@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const services = [
   {
     title: 'Full-Stack Development',
-    description: 'Building scalable applications with React, Next.js,Redux, Node.js, and Django.'
+    description: 'Building scalable applications with React, Next.js, Redux, Node.js, and Django.'
   },
   {
     title: 'Backend & APIs',
