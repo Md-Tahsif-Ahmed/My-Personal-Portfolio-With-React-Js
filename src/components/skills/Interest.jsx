@@ -6,20 +6,20 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const services = [
   {
-    title: 'Full Stack Web Development',
-    description: 'Building responsive and high-performance websites.'
+    title: 'Full-Stack Development',
+    description: 'Building scalable applications with React, Next.js,Redux, Node.js, and Django.'
   },
   {
-    title: 'API Integration',
-    description: 'Integrating third-party APIs for enhanced functionality.'
+    title: 'Backend & APIs',
+    description: 'Designing REST APIs, business logic, authentication, and real-time features.'
   },
   {
-    title: 'Frontend Development',
-    description: 'Creating interactive and dynamic user interfaces.'
+    title: 'Database Engineering',
+    description: 'Optimizing PostgreSQL, MongoDB, MySQL, Redis, and ORM-driven data models.'
   },
   {
-    title: 'Backend Development',
-    description: 'Building robust and scalable backend services.'
+    title: 'Cloud & Architecture',
+    description: 'Working with Docker, microservices, RabbitMQ, CI/CD, and deployment workflows.'
   }
 ];
 
@@ -54,7 +54,7 @@ export default function ServiceCard() {
 
   return (
     <section id="services" className='out-service' >
-      <span className="head">My Services</span>
+      <span className="head">Areas of Interest</span>
       <div className="service-section">
         <Slider {...settings} className="service-slider">
           {services.map((service, index) => (

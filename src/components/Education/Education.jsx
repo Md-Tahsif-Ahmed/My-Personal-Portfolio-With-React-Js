@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import classes from './Education.module.css';
 // import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 import { MdSchool } from 'react-icons/md';
 import { MdWork } from 'react-icons/md';
-import { FaSchool } from 'react-icons/fa';
 
 class Education extends Component {
   render() {
@@ -38,39 +37,28 @@ class Education extends Component {
                       <h2>
                         Professional Experience
                       </h2>
-                      <span style={{ fontWeight: 'bold' }}>Finixcode(January2025-Present)</span>
+                      <span style={{ fontWeight: 'bold' }}>Spectrum Software & Consulting (Pvt.) Ltd. (Apr 2026 - Present)</span>
                       <p>
-                        I am currently working as a <b style={{ color: '#007acc' }}>Software Engineer</b> at{' '}
-                        <a target='_blank' href='https://dreamdiver.nl/'>
-                          <b style={{ color: '#007acc' }}>Finixcode</b>
-                        </a>{' '}
+                        I am working as a <b style={{ color: '#007acc' }}>Software Engineer</b>, developing and maintaining a Supply Chain Finance platform with <b style={{ color: '#007acc' }}>Next.js, Redux, and TypeScript</b>.
                         <i>
-                           where i am working based on client-specific requirements and designed and developed a TutotSplan Management System Website using MERN which
-                           is authenticated with JWT. Also Working with Ledgero Management System
-                        </i>{' '}
-                        and boosting my professional skills.
+                          I build high-performance APIs with Node.js, Express.js, and PostgreSQL, and work in a Docker-based microservices architecture using RabbitMQ and Redis.
+                        </i>
                       </p>
-                      
-                      <span style={{ fontWeight: 'bold' }}>Dream Diver IT Solution Ltd.(January2024-December2024)</span>
+                      <span style={{ fontWeight: 'bold' }}>Finixcode (Jan 2025 - Mar 2026)</span>
                       <p>
-                        I have worked as a <b style={{ color: '#007acc' }}>Jr. Software Engineer</b> at{' '}
-                        <a target='_blank' href='https://www.linkedin.com/company/venturenxt/about/'>
-                          <b style={{ color: '#007acc' }} >Dream Diver IT Solution Ltd.</b>
-                        </a>{' '}
+                        I worked as a <b style={{ color: '#007acc' }}>Software Engineer</b>, building TutorSplan and a business management system with <b style={{ color: '#007acc' }}>Next.js, NestJS, and PostgreSQL</b>.
                         <i>
-                           where i have Designed and developed a web-based Courier Service System using MERN Stack. Also developed a fleet management system using Django.
-                           Incorporated client-specific requirements, ensuring high performance, scalability, and user-friendly features
-                         
-                        </i>{' '}
-                        and boosting my professional skills.
+                          I implemented RBAC, optimized APIs, built reusable UI components, and migrated legacy MySQL production data to PostgreSQL with zero data loss.
+                        </i>
+                      </p>
+                      <span style={{ fontWeight: 'bold' }}>Dream Diver NL (Jan 2024 - Dec 2024)</span>
+                      <p>
+                        <i>
+                          Built a courier service system with React, Node.js, Express.js, and MongoDB, including real-time parcel tracking, bulk data upload, and database indexing. I also contributed to backend automation for an enterprise ERP project using Python and Django.
+                        </i>
                       </p>
                       <span style={{ fontWeight: 'bold' }}>LeetCode Problem Solver</span>
-                      <p> 
-                        <i>
-                      Solved <b style={{ color: '#007acc' }}>115 plus</b> coding problems using python on LeetCode, showcasing proficiency including arrays,
-                      strings, linked list etc. and algorithms.
-                        </i> 
-                        </p>
+                      <p><i>Solved <b style={{ color: '#007acc' }}>117+</b> algorithmic problems using Python, covering core data structures and algorithms.</i></p>
                     </div>
                   </article>
                   {/* </ScrollAnimation> */}
@@ -90,8 +78,7 @@ class Education extends Component {
                         Education
                       </h2>
                       <p>
-                        I have completed my graduation in CSE (Computer Science and Engineering)
-                        from <a href='https://www.ewubd.edu/'><b style={{ color: '#007acc'  }}>East West University</b></a> 
+                        Bachelor of Science in <b style={{ color: '#007acc' }}>Computer Science & Engineering</b> from <a href='https://www.ewubd.edu/' target='_blank' rel='noreferrer'><b style={{ color: '#007acc'  }}>East West University</b></a>.
                       </p>
                     </div>
                   </article>

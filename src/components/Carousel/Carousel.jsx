@@ -36,11 +36,11 @@ export default function CarouselImage() {
               }}
             >
               <a
-                href='https://drive.google.com/file/d/1YBrhJuZeXntA-h7o3gIblhufWTr_SvPV/view?usp=sharing'
+                href='https://drive.google.com/file/d/1T1qDeAZEG1k7IMETXUcW-HIb0XuDxAQA/view?usp=sharing'
                 rel='opener noreferrer'
                 target='_blank'
               >
-                VIEW CV(MERN Stack) <FaArrowCircleDown />
+                VIEW CV <FaArrowCircleDown />
               </a>
               {/* <a
                 href='https://drive.google.com/file/d/1WLpcoE_SSpiNNk_372CkPQb1CtC8iFLe/view?usp=drive_link'

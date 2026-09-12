@@ -6,9 +6,10 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaLinux,
-  FaGithub
+  FaGithub,
+  FaCpanel
 } from 'react-icons/fa';
-import { DiJavascript1, DiPhp, DiMongodb } from 'react-icons/di';
+import { DiJavascript1, DiPhp, DiMongodb, DiDocker, DiLinux } from 'react-icons/di';
 import {
   SiCplusplus,
   SiTailwindcss,
@@ -16,11 +17,20 @@ import {
   SiPostgresql,
   SiSocketdotio,
   SiRedis,
-  SiTypescript
+  SiTypescript,
+  SiRedux,
+  SiNestjs,
+  SiMongoose,
+  SiVercel,
+  SiNginx,
+  SiRabbitmq
 } from 'react-icons/si';
 import './SkillComponent.css'; // Import the CSS file
 import { RiNextjsFill } from 'react-icons/ri';
 import { FaDocker } from 'react-icons/fa6';
+import { MdSchedule } from 'react-icons/md';
+import { GiBirdMask } from 'react-icons/gi';
+import { FcServices } from 'react-icons/fc';
 
 const skills = [
   {
@@ -36,48 +46,56 @@ const skills = [
   },
 
   {
-    category: 'Web Technologies',
+    category: 'Frontend Technologies',
     skills: [
       { name: 'HTML5', icon: <DiJavascript1 />, level: 95 },
       { name: 'CSS3', icon: <DiJavascript1 />, level: 90 },
       { name: 'Tailwind', icon: <SiTailwindcss />, level: 85 },
       { name: 'React JS', icon: <FaReact />, level: 90 },
-      { name: 'Next JS', icon: <RiNextjsFill />, level: 90 },
-      { name: 'Firebase', icon: <FaNodeJs />, level: 70 },
+      { name: 'Next JS', icon: <RiNextjsFill />, level: 70 },
+      { name: 'Redux', icon: <SiRedux />, level: 50 },
+      { name: 'Firebase', icon: <FaNodeJs />, level: 60 },
       // { name: "Bootstrap4", icon: <DiJavascript1 />, level: 80 },
       { name: 'React Router', icon: <FaReact />, level: 80 },
       { name: 'Axios', icon: <FaReact />, level: 85 }
     ]
   },
   {
-    category: 'Web Technologies',
+    category: 'Backend Technologies',
     skills: [
-      { name: 'Express JS', icon: <FaNodeJs />, level: 70 },
+      { name: 'Express JS', icon: <FaNodeJs />, level: 90 },
       { name: 'Node JS', icon: <FaNodeJs />, level: 75 },
-      { name: 'Django', icon: <SiDjango />, level: 80 },
-      { name: 'Django REST Framework', icon: <SiDjango />, level: 75 },
-      { name: 'JWT', icon: <FaNodeJs />, level: 70 },
-      { name: 'Stripe', icon: <FaNodeJs />, level: 65 }
+      { name: 'Django', icon: <SiDjango />, level: 85 },
+      { name: 'Django REST Framework', icon: <SiDjango />, level: 85 },
+      { name: 'NestJS', icon: <SiNestjs />, level: 50 },
+      { name: 'JWT', icon: <FaNodeJs />, level: 80 },
+      { name: 'Stripe', icon: <FaNodeJs />, level: 90 },
+      { name: 'Cron Jobs', icon: <MdSchedule />, level: 80 },
+      { name: 'Real-time (Socket.io)', icon: <SiSocketdotio />, level: 60 },
     ]
   },
   {
-    category: 'Database Skills',
+    category: 'Databases & ORM',
     skills: [
       { name: 'MySQL', icon: <FaDatabase />, level: 85 },
       { name: 'MongoDB', icon: <DiMongodb />, level: 80 },
       { name: 'PostgreSQL', icon: <SiPostgresql />, level: 75 },
-      { name: 'Mongoose', icon: <SiPostgresql />, level: 75 }
+      { name: 'Mongoose', icon: <SiMongoose />, level: 75 },
+      { name: 'TypeORM', icon: <GiBirdMask />, level: 75 },
+      { name: 'Redis (Cache)', icon: <SiRedis />, level: 65 },
     ]
   },
   {
-    category: 'Software and Tools',
+    category: 'Deployment & Hosting',
     skills: [
       { name: 'Git', icon: <FaGitAlt />, level: 90 },
-      { name: 'MATLAB', icon: <FaReact />, level: 70 },
-      { name: 'Xampp', icon: <FaDatabase />, level: 75 },
-      { name: 'Anaconda', icon: <FaPython />, level: 80 },
-      { name: 'NetBeans', icon: <FaReact />, level: 70 },
-      { name: 'VS Code', icon: <FaReact />, level: 95 }
+      { name: 'Docker', icon: <DiDocker />, level: 60 },
+       { name: 'Linux (Ubuntu)', icon: <FaLinux />, level: 85 },
+      { name: 'Vercel', icon: <SiVercel />, level: 70 },
+      { name: 'Hoistinger VPS', icon: <hoisting />, level: 90 },
+      { name: 'Nginx', icon: <SiNginx />, level: 60 },
+      { name: 'cPanel', icon: <FaCpanel />, level: 50 },
+     
     ]
   },
   // {
@@ -88,13 +106,14 @@ const skills = [
   //   ]
   // }
   {
-    category: 'Others',
+    category: 'Familiar Tools & Technologies',
     skills: [
-      { name: 'Docker', icon: <FaDocker />, level: 75 },
+      { name: 'Microservices', icon: <FcServices />, level: 40 },
       { name: 'CI/CD (GitHub Actions)', icon: <FaGithub />, level: 85 },
-      { name: 'Real-time (Socket.io)', icon: <SiSocketdotio />, level: 95 },
-      { name: 'Redis (Cache)', icon: <SiRedis />, level: 65 },
-      { name: 'Linux (Ubuntu)', icon: <FaLinux />, level: 85 }
+      { name: 'RabbitMQ', icon: <SiRabbitmq />, level: 85 },
+  
+      
+     
     ]
   }
 ];

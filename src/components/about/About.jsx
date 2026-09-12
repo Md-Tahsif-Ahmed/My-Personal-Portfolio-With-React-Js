@@ -18,18 +18,10 @@ class About extends Component {
    
         <div className={classes.About}>
   <p>
-    Hi! My name is <b style={{ color: '#007acc' }}>Md. Tahsif Ahmed</b>. I am a passionate developer with experience in{' '}
-    <b style={{ color: '#007acc' }}>Python Django(Backend Developer)</b> & <b style={{ color: '#007acc' }}>MERN Stack</b> development. 
-    I'm currently working at{' '}
-    <b>
-      <a className={classes.link} style={{ color: '#007acc' }} target='_blank' href='https://www.finixcode.com/'>
-        Finixcode
-      </a>
-    </b>{' '}
-    as a <b style={{ color: '#007acc' }}>Software Engineer</b>. I am highly interested in developing new things that excite me.
+    Hi! My name is <b style={{ color: '#007acc' }}>Md. Tahsif Ahmed</b>. I am a <b style={{ color: '#007acc' }}>Full-Stack Software Engineer</b> with 2.8+ years of experience building scalable web applications, enterprise solutions, and financial platforms. I currently work at <b style={{ color: '#007acc' }}>Spectrum Software & Consulting (Pvt.) Ltd.</b> as a <b style={{ color: '#007acc' }}>Software Engineer</b>.
   </p>
   <p className={classes.br}>
-    I love exploring new technologies, and as a practitioner, I like to stay on top of the latest trends. I try to leave every line of code I write more readable, accessible, and modular. My problem-solving mindset and active GitHub profile showcase my commitment to innovative and collaborative coding.
+    My work spans JavaScript, TypeScript, and Python ecosystems, including React, Next.js, Redux, Node.js, Django, and PostgreSQL. I enjoy building reliable REST APIs, real-time features, and cloud-ready applications, with a focus on clean, modular code, database optimization, and practical problem-solving.
   </p>
 </div>
 
